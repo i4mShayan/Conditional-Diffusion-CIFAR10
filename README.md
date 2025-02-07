@@ -2,20 +2,20 @@
 This project explores Conditional Diffusion Models for generating CIFAR-10-like images. Diffusion models are a class of generative models that iteratively denoise data to generate high-quality samples. This implementation compares two architectures: a simple UNet and an Attention-Based UNet, demonstrating their effectiveness in image synthesis.
 
 ## Table of Contents
-1. [Model Architecture](#model-architecture)
-   - [Simple UNet](#simple-unet-model)
-   - [Attention-Based UNet](#attention-based-unet-model)
-2. [Simple UNet Model](#simple-unet-model)
-   - [Config](#config)
-   - [Forward Sample](#forward-sample)
-   - [Backward Sample (Class: Horse)](#backward-sample-class-horse)
-   - [Final Generated Samples](#final-generated-samples)
-3. [Attention-Based UNet Model](#attention-based-unet-model)
-   - [Config](#config-1)
-   - [Loss Curve](#loss-curve)
-   - [Generated Samples Per Each Epoch](#generated-samples-per-each-epoch)
-4. [Conclusion](#conclusion)
-5. [Future Work](#future-work)
+- [Conditional Diffusion Models for CIFAR-10 Image Generation](#conditional-diffusion-models-for-cifar-10-image-generation)
+  - [Table of Contents](#table-of-contents)
+  - [Model Architecture](#model-architecture)
+  - [Simple UNet Model](#simple-unet-model)
+    - [Config](#config)
+    - [Forward Sample](#forward-sample)
+    - [Backward Sample (Class: Horse)](#backward-sample-class-horse)
+    - [Final Generated Samples](#final-generated-samples)
+  - [Attention-Based UNet Model](#attention-based-unet-model)
+    - [Config](#config-1)
+    - [Loss Curve](#loss-curve)
+  - [Generated Samples Per Each Epoch](#generated-samples-per-each-epoch)
+  - [Conclusion](#conclusion)
+  - [Future Work](#future-work)
 
    
 ## Model Architecture
