@@ -1,10 +1,8 @@
 # Conditional Diffusion Models for CIFAR-10 Image Generation
 This project explores Conditional Diffusion Models for generating CIFAR-10-like images. Diffusion models are a class of generative models that iteratively denoise data to generate high-quality samples. This implementation compares two architectures: a simple UNet and an Attention-Based UNet, demonstrating their effectiveness in image synthesis.
 
-# Table of Contents
+## Table of Contents
 1. [Model Architecture](#model-architecture)
-   - [DDPM Scheduler](#ddpm-scheduler)
-   - [Conditional UNet](#conditional-unet)
    - [Simple UNet](#simple-unet-model)
    - [Attention-Based UNet](#attention-based-unet-model)
 2. [Simple UNet Model](#simple-unet-model)
@@ -134,4 +132,4 @@ config = {
 The Attention-Based UNet outperforms the simple UNet in terms of convergence speed and image quality. With only 50 epochs of training, the Attention-Based UNet generates images that are significantly better than those produced by the simple UNet after 200 epochs. This highlights the importance of attention mechanisms in improving the performance of diffusion models.
 
 ## Future Work
-Future work will focus on evaluating the quality of the generated images using the [Fréchet Inception Distance (FID) score](https://github.com/mseitzer/pytorch-fid). FID measures the similarity between the generated images and the real CIFAR-10 dataset, providing a quantitative metric for assessing the performance of the models. Additionally, further exploration of hyperparameter tuning and architectural improvements could lead to even better results.
+Future work will focus on evaluating the quality of the generated images using the [Fréchet Inception Distance (FID) score](https://github.com/mseitzer/pytorch-fid). FID measures the similarity between the generated images and the real CIFAR-10 dataset, providing a quantitative metric for assessing the performance of the models. Additionally, more training and hyperparameter tuning are needed to further improve the model's performance. Further exploration of architectural improvements, such as incorporating advanced attention mechanisms or hybrid architectures, could also lead to even better results.
