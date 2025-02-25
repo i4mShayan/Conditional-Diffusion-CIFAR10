@@ -51,16 +51,6 @@ config = {
     "patience": 10
 }
 ```
-The configuration includes the following key parameters:
-- `beta_start` and `beta_end`: Define the noise schedule for the diffusion process.
-- `steps`: Number of timesteps in the diffusion process.
-- `image_size` and `image_channel`: Dimensions of the input images.
-- `epochs`: Number of training epochs.
-- `lr`: Learning rate for the optimizer.
-- `batch_size`: Number of samples per batch.
-- `num_class`: Number of classes in CIFAR-10.
-- `pos_dim`: Dimension of the positional embeddings for timesteps.
-- `patience`: Early stopping patience for training.
 
 
 ### Forward Sample
@@ -102,11 +92,15 @@ config = {
 }
 ```
 
-### Loss Curve
-![image](https://github.com/user-attachments/assets/b9895853-3fd9-4946-aad3-0c304faab7c8)
+### Forward Sample
+![Forward Sample](https://github.com/user-attachments/assets/3e0f7c35-12ec-4828-8adc-2dbe16d7de5b)
 
 
-## Generated Samples Per Each Epoch
+### Backward Sample (Class: Frog)
+![Backward Sample](https://github.com/user-attachments/assets/db5aa4a2-72b1-4df1-8080-d501d8cd4f50)
+
+
+## Final Generated Samples (Per each epoch)
 ![generated_images_epoch_1](https://github.com/user-attachments/assets/dd24fbd2-ab74-4f72-8750-87743502b66a)
 
 ![generated_images_epoch_5](https://github.com/user-attachments/assets/781a5455-c6d1-49d3-b146-77ae21e59a44)
