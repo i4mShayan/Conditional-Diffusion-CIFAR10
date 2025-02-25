@@ -12,8 +12,7 @@ This project explores Conditional Diffusion Models for generating CIFAR-10-like 
    - [Final Generated Samples](#final-generated-samples)
 - [Attention-Based UNet Model](#attention-based-unet-model)
    - [Config](#config-1)
-   - [Loss Curve](#loss-curve)
-   - [Generated Samples Per Each Epoch](#generated-samples-per-each-epoch)
+   - [Final Generated Samples (Every 5 Epochs)](#final-generated-samples-every-5-epochs)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
 
@@ -100,7 +99,7 @@ config = {
 ![Backward Sample](https://github.com/user-attachments/assets/db5aa4a2-72b1-4df1-8080-d501d8cd4f50)
 
 
-## Final Generated Samples (Per each epoch)
+## Final Generated Samples (Every 5 Epochs)
 ![generated_images_epoch_1](https://github.com/user-attachments/assets/dd24fbd2-ab74-4f72-8750-87743502b66a)
 
 ![generated_images_epoch_5](https://github.com/user-attachments/assets/781a5455-c6d1-49d3-b146-77ae21e59a44)
